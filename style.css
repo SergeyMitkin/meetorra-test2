@@ -4,16 +4,20 @@ ul {
 }
 
 ul li  {
-    background: gray;
     display: inline-block;
     text-align: left;
-    border: 1px solid #000;
-    padding: 10px 20px;
 }
 
 ul li a {
     color: white;
+    background: gray;
     text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #000;
+}
+
+ul li a:hover {
+    background: darkgrey;
 }
 
 ul li.helper {
